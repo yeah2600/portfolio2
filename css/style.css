@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+*{
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+
+html{
+    position: relative;
+    font-size: 100%;
+}
+
+body{
+    background-color: #FFFFFF;
+    font-family:'メイリオ', 'Meiryo','ＭＳ ゴシック','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',sans-serif;
+}
+
+ul{
+    text-align: center;
+}
+
+ul li{
+    display: inline;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.headder{
+    justify-content: center;
+}
+
+
+
+.navihead{
+    width: 960px;
+    min-height: 180px;
+    position: relative;
+    margin: 0 auto; 
+    background-color: rgb(253, 223, 184);
+}
+
+p.logo{
+    position: absolute;
+    left: 405px;
+    top: 10px;
+}
+
+.navi{
+    font-size: 24px;
+    padding: 120px 0 0 0;
+}
+
+.navi li{
+    margin: 0 20px;
+}
+
+.navi li.adj{
+    margin: 0 180px 0 20px;
+}
+
+.mainbody{
+    width: 960px;
+    margin: 0 auto;
+    background-color: aqua;
+}
+
+.home{
+    display: flex;
+}
+
+.explanation{
+    width: 480px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.info{
+    margin: 0 auto;
+}
+
+
+
+#footer{
+    background-color: blue;
+}
+
+.navifoot{
+    width: 960px;
+    min-height: 180px;
+    margin: 0 auto;
+}
+
+.footnavi{
+    font-size: 20px;
+}
